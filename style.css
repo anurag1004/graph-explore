@@ -1,0 +1,27 @@
+/* Style for the container */
+.slider-container {
+    position: relative; /* Ensure positioning context for the absolute positioning of the value */
+    text-align: left;
+  }
+  
+  /* Style for the label */
+  .slider-label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style for the value */
+  .slider-value {
+    /* position: relative; */
+    top: -30px; /* Adjust this value to position the value above the slider circle */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* Style for the slider */
+  #slider {
+    width: 300px;
+  }
+  

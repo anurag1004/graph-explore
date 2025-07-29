@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
+    <script src="cell.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <div>
+      <div class="slider-container">
+        <label for="slider" class="slider-label">resolution:
+        </label>
+        <input type="range" id="slider" min="1" max="100">
+        <span class="slider-value" id="selectedValue"></span>
+      </div>
+      <button id="startBfs">start BFS</button>
+      <button id="startDfs">start DFS</button>
+      <button id="startGameOfLife">start GameOfLife</button>
+      <button id="initGliderGun">Init Glider gun</button>
+      <button id="seed">seed</button>
+    </div>
+    <script src="glidergun.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
